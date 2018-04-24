@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Extension of LogicReinc.Data for MongoDB usage.</Description>
+    <PackageReleaseNotes>Initial Upload</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/LogicReinc/LogicReinc.Data</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageProjectUrl>https://github.com/LogicReinc/LogicReinc.Data</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/LogicReinc/LogicReinc.Data/master/LICENSE</PackageLicenseUrl>
+    <Copyright>LogicReinc</Copyright>
+    <PackageTags>Databases, Mongodb, LogicReinc, Data, SQL, Unified</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LogicReinc" Version="1.0.2" />
+    <PackageReference Include="MongoDB.Driver" Version="2.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LogicReinc.Data\LogicReinc.Data.csproj" />
+  </ItemGroup>
+
+</Project>

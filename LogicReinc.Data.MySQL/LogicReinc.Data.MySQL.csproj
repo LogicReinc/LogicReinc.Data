@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Extension of LogicReinc.Data for MySQL Usage.</Description>
+    <PackageProjectUrl>https://github.com/LogicReinc/LogicReinc.Data</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/LogicReinc/LogicReinc.Data/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/LogicReinc/LogicReinc.Data</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>Databases, Mongodb, LogicReinc, Data, SQL, Unified</PackageTags>
+    <PackageReleaseNotes>Initial Upload</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LogicReinc" Version="1.0.2" />
+    <PackageReference Include="MySql.Data" Version="8.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LogicReinc.Data\LogicReinc.Data.csproj" />
+  </ItemGroup>
+
+</Project>

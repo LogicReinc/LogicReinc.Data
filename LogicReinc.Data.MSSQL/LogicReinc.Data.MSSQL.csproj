@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/LogicReinc/LogicReinc.Data/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/LogicReinc/LogicReinc.Data</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/LogicReinc/LogicReinc.Data</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageReleaseNotes>Initial Upload</PackageReleaseNotes>
+    <Copyright>LogicReinc</Copyright>
+    <Description>Extension of LogicReinc.Data for MSSQL Usage.</Description>
+    <PackageTags>Databases, Mongodb, LogicReinc, Data, SQL, Unified</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LogicReinc" Version="1.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LogicReinc.Data\LogicReinc.Data.csproj" />
+  </ItemGroup>
+
+</Project>

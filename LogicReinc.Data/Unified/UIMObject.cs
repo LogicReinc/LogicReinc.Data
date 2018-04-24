@@ -2,8 +2,6 @@
 using LogicReinc.Collections;
 using LogicReinc.Data.Unified.Attributes;
 using LogicReinc.Expressions;
-using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
 using Newtonsoft.Json;
 using System;
 using System.Collections;
@@ -68,9 +66,7 @@ namespace LogicReinc.Data.Unified
 
         protected List<KeyValuePair<UnifiedIMReference, IUnifiedIMObject>> ReferenceTo => RefTo;
 
-
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
+        
         public override string ObjectID { get; set; }
 
 

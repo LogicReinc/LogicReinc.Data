@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicReinc.Data", "LogicReinc.Data\LogicReinc.Data.csproj", "{288F4826-B985-40CA-B1AB-8C01F2A308E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicReinc.Data", "LogicReinc.Data\LogicReinc.Data.csproj", "{288F4826-B985-40CA-B1AB-8C01F2A308E0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicReinc.Data.Tests", "LogicReinc.Data.Tests\LogicReinc.Data.Tests.csproj", "{E17901AD-B78A-48E5-BE0F-C25574E7658A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicReinc.Data.MongoDB", "LogicReinc.Data.MongoDB\LogicReinc.Data.MongoDB.csproj", "{E16AFC32-BDD6-4039-A7CA-3C2A74912D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicReinc.Data.MySQL", "LogicReinc.Data.MySQL\LogicReinc.Data.MySQL.csproj", "{32FAF4CE-18D0-4490-9AD0-2D8E5A9BECDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicReinc.Data.MSSQL", "LogicReinc.Data.MSSQL\LogicReinc.Data.MSSQL.csproj", "{99F253A1-FF62-4C90-89CB-2B161C4B21CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{E17901AD-B78A-48E5-BE0F-C25574E7658A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E17901AD-B78A-48E5-BE0F-C25574E7658A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E17901AD-B78A-48E5-BE0F-C25574E7658A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E16AFC32-BDD6-4039-A7CA-3C2A74912D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E16AFC32-BDD6-4039-A7CA-3C2A74912D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E16AFC32-BDD6-4039-A7CA-3C2A74912D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E16AFC32-BDD6-4039-A7CA-3C2A74912D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FAF4CE-18D0-4490-9AD0-2D8E5A9BECDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FAF4CE-18D0-4490-9AD0-2D8E5A9BECDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FAF4CE-18D0-4490-9AD0-2D8E5A9BECDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FAF4CE-18D0-4490-9AD0-2D8E5A9BECDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F253A1-FF62-4C90-89CB-2B161C4B21CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F253A1-FF62-4C90-89CB-2B161C4B21CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F253A1-FF62-4C90-89CB-2B161C4B21CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F253A1-FF62-4C90-89CB-2B161C4B21CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

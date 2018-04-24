@@ -1,5 +1,4 @@
-﻿using LogicReinc.Data.MSSQL.Utility;
-using LogicReinc.Data.SQL.Attributes;
+﻿using LogicReinc.Data.SQL.Attributes;
 using LogicReinc.Data.SQL.Utility;
 using LogicReinc.Expressions;
 using System;

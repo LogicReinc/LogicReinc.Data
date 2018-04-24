@@ -71,7 +71,7 @@ namespace LogicReinc.Data.MongoDB
         }
         public void DeleteObject(Expression<Func<T, bool>> condition)
         {
-            Collection.DeleteOne(condition);
+            DeleteResult result = Collection.DeleteOne(condition);
         }
 
         public T RetrieveObject(Expression<Func<T, bool>> condition)
